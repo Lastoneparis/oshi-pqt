@@ -1,0 +1,26 @@
+name: Implementation or documentation issue
+description: Report a reproducible problem in the OSHI proposal or reference material.
+title: "[Issue]: "
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private keys, credentials, or sensitive production traffic. For vulnerabilities, use SECURITY.md."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is unclear, incorrect, or failing?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reproduction
+      description: Include references, sanitized output, or steps.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security or interoperability impact
